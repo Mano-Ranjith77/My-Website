@@ -1,0 +1,80 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import 
+url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+}
+header {
+  background:#1f2937;
+  color:white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+   font-family: "Dancing Script", cursive;
+  font-size: 30px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 16px;
+  font-weight: 500;
+  font-size: 25px;
+  font-family:'Times New Roman', Times, serif;
+}
+
+.hero {
+  background: linear-gradient(135deg, #2a9ec8, #ec5ddc);
+  color: white;
+  text-align: center;
+  padding: 80px 24px;
+  font-family: "Quintessential", serif;
+}
+
+.hero h1 {
+  font-size: 40px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin: 16px 0;
+}
+
+.hero button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.sections {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 40px 24px;
+}
+
+.card {
+  background: white;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  transition: 0.3s ease;
+}
+
+footer {
+  background: #1f2937;
+  color: #cbd5f5;
+  text-align: center;
+  padding: 16px;
+}
+.card:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 10px 16px rgba(0,0,0,0.08);
+}
