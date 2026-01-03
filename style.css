@@ -78,3 +78,38 @@ footer {
     transform: translateY(-6px);
     box-shadow: 0 10px 16px rgba(0,0,0,0.08);
 }
+@media (max-width: 768px) {
+
+  header {
+    flex-direction: column;
+    text-align: center;
+    padding: 16px;
+  }
+
+  header h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+
+  header nav a {
+    font-size: 18px;
+    margin: 0 8px;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+  footer{
+    flex-direction: column;
+    text-align: center;
+    font-size: 10px;
+  }
+  .card{
+    margin:10px;
+  }
+
+}

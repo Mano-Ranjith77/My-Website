@@ -83,3 +83,28 @@ header p{
 .cart:hover {
   background: #0891b2;
 }
+@media screen and (max-width:700px) {
+  .header{
+    text-align: center;
+    width:100%;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding:10px;
+  }
+  .card{
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 80%;
+
+  }
+  .card h3{
+    font-size: 30px;
+  }
+  .card img{
+    width:100%;
+  }
+  
+}
